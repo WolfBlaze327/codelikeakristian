@@ -207,6 +207,7 @@ p{
 
 .portfolio_footer {
   height: 10vh;
+  width: auto;
 }
 
 
@@ -820,7 +821,7 @@ p{
     font-size: 27px;
   }
   .about{
-    height: 110vh;
+    height: 150vh;
     width: auto;
   }
   .img-wrapper
@@ -832,22 +833,25 @@ p{
     margin-top: 11.6%;
   }
   .card-grid{
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   .card:before{
-    padding-bottom: 150%;
+    padding-bottom: 80%;
   }
   .projects {
-    height: 110vh;
+    height: 150vh;
+  }
+  .proj-tools{
+    font-size: 2vw;
   }
 }
 
 @media(min-width: 960px) and (max-width: 1100px){
   .card-grid{
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(1, 1fr); 
   }
   .card:before{
-    padding-bottom: 120%;
+    padding-bottom: 70%;
   }
   .card__content{
     font-size: 2vh;
@@ -856,7 +860,13 @@ p{
     font-size: 3vh;
   }
   .projects {
+    height: 150vh;
+  }
+  .about{
     height: 120vh;
+  }
+  .work-exp{
+    height: 110vh;
   }
 }
 
